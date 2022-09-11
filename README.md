@@ -8,4 +8,4 @@
 - 📫 How to reach me: premkumar.kora@gmail.com
 - 😄 Pronouns: He/His
 - ⚡ Fun fact: Every data set has stories to tell, I listen to them carefully and translate them into meaningful model
-<img src="https://github-readme-stats.vercel.app/api?username=premkumarkora&&show_icons=true&title_color=ffffff&icon_color=bb2acf&text_color=daf7dc&bg_color=151515">
+<img src="https://github-readme-stats.vercel.app/api?username=premkumarkora&&show_icons=true&title_color=ffffff&icon_color=0000FF&text_color=daf7dc&bg_color=151515">
