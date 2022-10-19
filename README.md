@@ -20,6 +20,7 @@
 
 ### Technical Skills
 -⚡My SQL , SQL Server, Oracle, Mongo<br>
+-⚡SQL & NOSQL <br>
 -⚡Python, R Programming, Scikit-learn, Pandas, Numpy, java, C++, Cold Fusion, HTML, Java Script, Struts<br>
 -⚡Matplotlib, Seaborn, plotly-express, streamlit<br>
 -⚡Machine Learning<br>
