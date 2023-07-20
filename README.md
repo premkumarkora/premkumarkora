@@ -1,6 +1,6 @@
 ### Hello, I am PremKumar Kora 👋
 
-- 🔭 I’m a Data Scientist currently working on few Data Science projects 
+- 🔭 I’m a Senior Data Scientist working on Insurance Domain 
 - 🌱 I’m currently learning Neural networks and Deep learning in Artificial Intelligence
 - 👯 I’m looking to collaborate on Data Science Projects
 - 🤔 I’m looking for help with Artificial Intelligence
