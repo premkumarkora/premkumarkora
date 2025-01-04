@@ -30,7 +30,7 @@
 
 
 
-<img src="https://github-readme-stats.vercel.app/api?username=premkumarkora">
+<img src="https://github-readme-stats.vercel.app/api?username=premkumarkora&show_icons=true&theme=radical">
 
 
 
