@@ -11,9 +11,9 @@
 ## 📚 Author 
 
 - **Artificial Intelligence : For the Decision Makers**
-- ["Kindle Edition"](https://www.amazon.com/dp/B0DPFM1G72)
-- ["Paper Back"](https://www.amazon.com/dp/B0DPPVNDCY)
-- ["Hard Cover"](https://www.amazon.com/dp/B0DPQ457NK)
+- [Kindle Edition](https://www.amazon.com/dp/B0DPFM1G72)
+- [Paper Back](https://www.amazon.com/dp/B0DPPVNDCY)
+- [Hard Cover](https://www.amazon.com/dp/B0DPQ457NK)
   
 ## 🏆 Patents
 
