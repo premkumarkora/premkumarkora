@@ -7,6 +7,14 @@
 - 😄 Pronouns: He/His
 - 🔗 Let's Connect: [LinkedIn]([https://www.linkedin.com/in/your-profile/](https://www.linkedin.com/in/premkumarkora/)) | [Email](mailto:premkumar.kora@gmail.com)
 - ⚡ Fun fact: Every data set has stories to tell, I listen to them carefully and translate them into meaningful result
+
+
+## 📚 Author
+
+- **Artificial Intelligence : For the Decision Makers**
+- ["Kindle Edition"]([https://link-to-your-book](https://www.amazon.com/dp/B0DPFM1G72))
+- ["Paper Back"]([https://link-to-your-book](https://www.amazon.com/dp/B0DPPVNDCY))
+- ["Hard Cover"]([https://link-to-your-book](https://www.amazon.com/dp/B0DPQ457NK))
   
 ## 🏆 Patents
 
