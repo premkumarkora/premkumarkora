@@ -2,7 +2,6 @@
 
 - 🔭 I’m a Senior Data Scientist  
 - 👯 I’m looking to collaborate on Data Science and Artificial Intelligence Projects
-- 📚 Author: ["Artificial Intelligence : For the Decision Makers"]([https://link-to-your-book](https://www.amazon.co.uk/dp/B0DPFM1G72)) 
 - 💬 Ask me about Machine Learning, Deep Learning, Atificial Intelligence, Federated/Dristributed Learning, Python, LLM, OpenAI, Prompt Engineering, CICD,  Mongo
 - 😄 Pronouns: He/His
 - 🔗 Let's Connect: [LinkedIn](https://www.linkedin.com/in/premkumarkora/) | [Email](mailto:premkumar.kora@gmail.com)
@@ -12,9 +11,9 @@
 ## 📚 Author 
 
 - **Artificial Intelligence : For the Decision Makers**
-- ["Kindle Edition"]([https://link-to-your-book](https://www.amazon.com/dp/B0DPFM1G72))
-- ["Paper Back"]([https://link-to-your-book](https://www.amazon.com/dp/B0DPPVNDCY))
-- ["Hard Cover"]([https://link-to-your-book](https://www.amazon.com/dp/B0DPQ457NK))
+- ["Kindle Edition"](https://www.amazon.com/dp/B0DPFM1G72)
+- ["Paper Back"](https://www.amazon.com/dp/B0DPPVNDCY)
+- ["Hard Cover"](https://www.amazon.com/dp/B0DPQ457NK)
   
 ## 🏆 Patents
 
