@@ -1,11 +1,24 @@
 ### Hello, I am PremKumar Kora 👋
 
 - 🔭 I’m a Senior Data Scientist  
-- 👯 I’m looking to collaborate on Data Science Projects
-- 💬 Ask me about Python, LLM, OpenAI, Prompt Engineering, Streamlit, CICD,  Mongo, NumPy, Pandas, Machine Learning, Deep Learning, Power BI & Tableau
-- 📫 How to reach me: premkumar.kora@gmail.com
+- 👯 I’m looking to collaborate on Data Science and Artificial Intelligence Projects
+- 📚 Author: ["Artificial Intelligence : For the Decision Makers"]([https://link-to-your-book](https://www.amazon.co.uk/dp/B0DPFM1G72)) 
+- 💬 Ask me about Machine Learning, Deep Learning, Atificial Intelligence, Federated/Dristributed Learning, Python, LLM, OpenAI, Prompt Engineering, CICD,  Mongo
 - 😄 Pronouns: He/His
+- 🔗 Let's Connect: [LinkedIn]([https://www.linkedin.com/in/your-profile/](https://www.linkedin.com/in/premkumarkora/)) | [Email](mailto:premkumar.kora@gmail.com)
 - ⚡ Fun fact: Every data set has stories to tell, I listen to them carefully and translate them into meaningful result
+  
+## 🏆 Patents
+
+- **AI PRESCRIPTOR: A Prescriptive Artificial Intelligence System for Monitoring Chronic Illness Patients**  
+  Developed an AI-driven system designed to assist doctors in monitoring chronic illness patients, providing prescriptive recommendations to improve treatment outcomes.  
+
+- **AI-Driven Prescriptive and Predictive System for Real-Time Medical Transcription, Diagnosis, and Prescription Generation**  
+  Leveraged local and transformer-based models, federated learning, and retrieval-augmented generation to create an innovative healthcare AI system.  
+  *Filed under patent application.* 
+
+
+
 
 ### Technical Skills
 -⚡Generative Artificial Intelligence Architect <br>
