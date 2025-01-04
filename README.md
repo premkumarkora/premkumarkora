@@ -5,7 +5,7 @@
 - 📚 Author: ["Artificial Intelligence : For the Decision Makers"]([https://link-to-your-book](https://www.amazon.co.uk/dp/B0DPFM1G72)) 
 - 💬 Ask me about Machine Learning, Deep Learning, Atificial Intelligence, Federated/Dristributed Learning, Python, LLM, OpenAI, Prompt Engineering, CICD,  Mongo
 - 😄 Pronouns: He/His
-- 🔗 Let's Connect: [LinkedIn]([https://www.linkedin.com/in/premkumarkora/]) | [Email](mailto:premkumar.kora@gmail.com)
+- 🔗 Let's Connect: [LinkedIn](https://www.linkedin.com/in/premkumarkora/) | [Email](mailto:premkumar.kora@gmail.com)
 - ⚡ Fun fact: Every data set has stories to tell, I listen to them carefully and translate them into meaningful result
 
 
