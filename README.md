@@ -28,7 +28,9 @@
 -⚡Process, Performance & Program Management<br>
 -⚡Enterprise IT Systems Product/Technology and delivery <br>
 
+<img src="https://github-readme-stats.vercel.app/api?username=premkumarkora&&show_icons=true&title_color=ffffff&icon_color=0000FF&text_color=daf7dc&bg_color=151515">
 
+https://github-readme-stats.vercel.app/api?username=premkumarkora)](https://github.com/premkumarkora/github-readme-stats)
 
 
 
