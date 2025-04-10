@@ -1,10 +1,10 @@
 ### Hello, I am PremKumar Kora 👋
 
-- 🔭 I’m a Senior Data Scientist  
+- 🔭 I’m a Senior Data Scientist | AI Architect  
 - 👯 I’m looking to collaborate on Data Science and Artificial Intelligence Projects
 - 💬 Ask me about Machine Learning, Deep Learning, Atificial Intelligence, Federated/Dristributed Learning, Python, LLM, OpenAI, Prompt Engineering, CICD,  Mongo
 - 😄 Pronouns: He/His
-- 🔗 Let's Connect: [LinkedIn](https://www.linkedin.com/in/premkumarkora/) | [Email](mailto:premkumar.kora@gmail.com)
+- 🔗 Let's Connect: [LinkedIn](https://www.linkedin.com/in/premkora/) | [Email](mailto:premkumar.kora@gmail.com)
 - ⚡ Fun fact: Every data set has stories to tell, I listen to them carefully and translate them into meaningful result
 
 
@@ -14,6 +14,14 @@
 - [Kindle Edition](https://www.amazon.com/dp/B0DPFM1G72)
 - [Paper Back](https://www.amazon.com/dp/B0DPPVNDCY)
 - [Hard Cover](https://www.amazon.com/dp/B0DPQ457NK)
+
+- - **Artificial Intelligence For Doctors**
+- [Kindle Edition](https://a.co/d/6207aEq)
+- [Paper Back](https://a.co/d/9kk2F31)
+- [Hard Cover](https://a.co/d/hudC02Y)
+
+- **Machine Learning with Python: Building Smart Systems for the Real World**
+- [Kindle Edition](https://a.co/d/gum6hua)
   
 ## 🏆 Patents
 
@@ -24,8 +32,20 @@
   Leveraged local and transformer-based models, federated learning, and retrieval-augmented generation to create an innovative healthcare AI system.  
   *Filed under patent application.* 
 
+### Key Skills
 
-
+-⚡Artificial Intelligence / Machine Learning Architecture & System Design<br>
+-⚡Advanced Data Science Machine Learning & Deep Learning<br>
+-⚡Python Programming & Tools<br>
+-⚡Data Engineering & Processing
+-⚡Data Visualization<br>
+-⚡Statistical Analysis<br>
+-⚡Process, Performance & Program Management<br>
+-⚡Enterprise IT Systems Product/Technology and delivery <br>
+-⚡Strategic Thinking & AI Road mapping <br>
+-⚡Digital Transformation <br>
+-⚡Communication & Leadership <br>
+-⚡Domain Expertise Healthcare, Finance & Insurance <br>
 
 ### Technical Skills
 -⚡Generative Artificial Intelligence Architect <br>
@@ -38,15 +58,7 @@
 -⚡Machine Learning<br>
 -⚡Tableau, Power Bi, Zoho Analytics <br><br>
 
-### General Skills
 
--⚡Machine Learning<br>
--⚡Deeep Learning<br>
--⚡Database Structures & Algorithms<br>
--⚡Data Visualization<br>
--⚡Statistical Analysis<br>
--⚡Process, Performance & Program Management<br>
--⚡Enterprise IT Systems Product/Technology and delivery <br>
 
 
 
