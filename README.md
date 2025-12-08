@@ -1,68 +1,83 @@
-### Hello, I am PremKumar Kora 👋
+# Hi, I'm Premkumar Kora
+### Principal AI Architect | Generative AI Strategist | Published Author
 
-- 🔭 I’m a Senior Data Scientist | AI Architect  
-- 👯 I’m looking to collaborate on Data Science and Artificial Intelligence Projects
-- 💬 Ask me about Machine Learning, Deep Learning, Atificial Intelligence, Federated/Dristributed Learning, Python, LLM, OpenAI, Prompt Engineering, CICD,  Mongo
-- 😄 Pronouns: He/His
-- 🔗 Let's Connect: [LinkedIn](https://www.linkedin.com/in/premkora/) | [Email](mailto:premkumar.kora@gmail.com)
-- ⚡ Fun fact: Every data set has stories to tell, I listen to them carefully and translate them into meaningful result
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect_Executive_Profile-0077B5?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/premkora)
+[![AWS Certified](https://img.shields.io/badge/AWS-Certified_AI_Practitioner-232F3E?style=for-the-badge&logo=amazon-aws)](https://www.credly.com/earner/earned/badge/fc06c7cc6a504546860a3daff36eee82)
 
+---
 
-## 📚 Author 
+## 🚀 Executive Summary
 
-- **Artificial Intelligence : For the Decision Makers**
-- [Kindle Edition](https://www.amazon.com/dp/B0DPFM1G72)
-- [Paper Back](https://www.amazon.com/dp/B0DPPVNDCY)
-- [Hard Cover](https://www.amazon.com/dp/B0DPQ457NK)
+I am a **Principal AI Architect** and **PMP-Certified Leader** with 15+ years of experience bridging the gap between business strategy and production-grade AI engineering. I specialize in designing **Enterprise Agentic Workflows**, **Secure RAG Systems**, and **Multi-Agent Orchestration** for regulated industries (Insurance, Healthcare, Finance).
 
-- - **Artificial Intelligence For Doctors**
-- [Kindle Edition](https://a.co/d/6207aEq)
-- [Paper Back](https://a.co/d/9kk2F31)
-- [Hard Cover](https://a.co/d/hudC02Y)
+Currently, I focus on translating ambiguous business requirements into scalable AI solutions that deliver tangible ROI, ensuring data sovereignty and regulatory compliance.
 
-- **Machine Learning with Python: Building Smart Systems for the Real World**
-- [Kindle Edition](https://a.co/d/gum6hua)
-  
-## 🏆 Patents
+### 🏆 Strategic Impact & ROI
+* [cite_start]**$1.8M Claims Automation:** Architected an Agentic AI platform on AWS (Claude/Titan) that autonomously processes **80% of claims**, reducing cycle time from 5.2 to 1.1 days[cite: 119].
+* [cite_start]**$1.0M Cost Avoidance:** Engineered a secure RAG application for policy analysis, eliminating 100% of manual data capture for adjusters [cite: 120-121].
+* [cite_start]**85% Efficiency Gain:** Deployed a Multi-Agent GenAI platform unifying 52 reporting systems, saving **$340K annually** [cite: 117-118].
 
-- **AI PRESCRIPTOR: A Prescriptive Artificial Intelligence System for Monitoring Chronic Illness Patients**  
-  Developed an AI-driven system designed to assist doctors in monitoring chronic illness patients, providing prescriptive recommendations to improve treatment outcomes.  
+---
 
-- **AI-Driven Prescriptive and Predictive System for Real-Time Medical Transcription, Diagnosis, and Prescription Generation**  
-  Leveraged local and transformer-based models, federated learning, and retrieval-augmented generation to create an innovative healthcare AI system.  
-  *Filed under patent application.* 
+## 🧠 Architectural Specialization: Agentic Systems
 
-### Key Skills
+*Below is a high-level representation of the **Agentic Claims Processing Architecture** I designed, utilizing Multi-Agent Orchestration to handle complex decision-making logic.*
 
--⚡Artificial Intelligence / Machine Learning Architecture & System Design<br>
--⚡Advanced Data Science Machine Learning & Deep Learning<br>
--⚡Python Programming & Tools<br>
--⚡Data Engineering & Processing
--⚡Data Visualization<br>
--⚡Statistical Analysis<br>
--⚡Process, Performance & Program Management<br>
--⚡Enterprise IT Systems Product/Technology and delivery <br>
--⚡Strategic Thinking & AI Road mapping <br>
--⚡Digital Transformation <br>
--⚡Communication & Leadership <br>
--⚡Domain Expertise Healthcare, Finance & Insurance <br>
+```mermaid
+%%{
+  init: {
+    'theme': 'base',
+    'themeVariables': {
+      'primaryColor': '#BB2588',
+      'primaryTextColor': '#fff',
+      'primaryBorderColor': '#7C0000',
+      'lineColor': '#F8F9FA',
+      'secondaryColor': '#006100',
+      'tertiaryColor': '#fff'
+    }
+  }
+}%%
 
-### Technical Skills
--⚡Generative Artificial Intelligence Architect <br>
--⚡LangChain, Large Language Model, OpenAI, <br>
--⚡Prompt Engineering, LLM Chains & Memory , Agents, RAG, Agentic RAG<br>
--⚡My SQL , SQL Server, Oracle, Mongo<br>
--⚡SQL & NOSQL <br>
--⚡Python, R Programming, Scikit-learn, Pandas, Numpy, java, C++, Cold Fusion, HTML, Java Script, Struts<br>
--⚡Matplotlib, Seaborn, plotly-express, streamlit<br>
--⚡Machine Learning<br>
--⚡Tableau, Power Bi, Zoho Analytics <br><br>
+graph TD
+    %% --- Styles for "Apple Liquid" Effect ---
+    classDef liquidStart fill:#000000,stroke:#333,stroke-width:4px,color:#fff,rx:20,ry:20,shadow:10px;
+    classDef liquidAgent fill:#8E2DE2,stroke:#4A00E0,stroke-width:2px,color:#fff,rx:15,ry:15,stroke-dasharray: 0;
+    classDef liquidModel fill:#F80759,stroke:#BC4E9C,stroke-width:2px,color:#fff,rx:15,ry:15;
+    classDef liquidData fill:#00F260,stroke:#0575E6,stroke-width:2px,color:#000,rx:10,ry:10;
+    classDef liquidAction fill:#fff,stroke:#333,stroke-width:1px,color:#000,rx:5,ry:5,stroke-dasharray: 5 5;
 
+    %% --- The Diagram Content ---
+    subgraph " "
+        direction TB
+        
+        Input([📄 Claims Documents]) :::liquidStart
+        
+        subgraph Orchestration [" 🧠 Multi-Agent Orchestrator "]
+            direction TB
+            Router{{" 🚦 Router Agent "}}:::liquidAgent
+            
+            subgraph Specialist_Agents [" Specialist Agents (CrewAI) "]
+                Policy[(" 📜 Policy RAG \n (Vector DB) ")]:::liquidData
+                Fraud[(" 🕵️ Fraud Detection \n (Anomaly Model) ")]:::liquidData
+                Medical[(" 🏥 Medical Encoder \n (Fine-Tuned Llama) ")]:::liquidModel
+            end
+        end
 
+        LLM[" 🔮 AWS Bedrock \n (Claude 3.5 Sonnet) "]:::liquidModel
+        Decision{{" ✅ Decision Engine "}}:::liquidAgent
+        Output([🚀 Approved/Rejected]) :::liquidStart
 
+    end
 
+    %% --- Connections ---
+    Input -->|Ingest PDF/Img| Router
+    Router -- "Context Retrieval" --> Policy
+    Router -- "Risk Analysis" --> Fraud
+    Router -- "Entity Extraction" --> Medical
+    
+    Policy & Fraud & Medical -.->|Aggregated Context| LLM
+    LLM ==>|Reasoning Trace| Decision
+    Decision -->|JSON Payload| Output
 
-<img src="https://github-readme-stats.vercel.app/api?username=premkumarkora&show_icons=true&theme=radical">
-
-
-
+    %% --- Link Styling ---
+    linkStyle 0,1,2,3,4,5,6,7 stroke-width:3px,fill:none,stroke:url(#gradient);
