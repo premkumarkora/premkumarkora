@@ -13,9 +13,9 @@ I am a **Principal AI Architect** and **PMP-Certified Leader** with 15+ years of
 Currently, I focus on translating ambiguous business requirements into scalable AI solutions that deliver tangible ROI, ensuring data sovereignty and regulatory compliance.
 
 ### 🏆 Strategic Impact & ROI
-* [cite_start]**$1.8M Claims Automation:** Architected an Agentic AI platform on AWS (Claude/Titan) that autonomously processes **80% of claims**, reducing cycle time from 5.2 to 1.1 days[cite: 119].
-* [cite_start]**$1.0M Cost Avoidance:** Engineered a secure RAG application for policy analysis, eliminating 100% of manual data capture for adjusters [cite: 120-121].
-* [cite_start]**85% Efficiency Gain:** Deployed a Multi-Agent GenAI platform unifying 52 reporting systems, saving **$340K annually** [cite: 117-118].
+* **$1.8M Claims Automation:** Architected an Agentic AI platform on AWS (Claude/Titan) that autonomously processes **80% of claims**, reducing cycle time from 5.2 to 1.1 days.
+* **$1.0M Cost Avoidance:** Engineered a secure RAG application for policy analysis, eliminating 100% of manual data capture for adjusters.
+* **85% Efficiency Gain:** Deployed a Multi-Agent GenAI platform unifying 52 reporting systems, saving **$340K annually**.
 
 ---
 
@@ -39,34 +39,32 @@ Currently, I focus on translating ambiguous business requirements into scalable 
 }%%
 
 graph TD
-    %% --- Styles for "Apple Liquid" Effect ---
+    %% --- Define Styles ---
     classDef liquidStart fill:#000000,stroke:#333,stroke-width:4px,color:#fff,rx:20,ry:20,shadow:10px;
-    classDef liquidAgent fill:#8E2DE2,stroke:#4A00E0,stroke-width:2px,color:#fff,rx:15,ry:15,stroke-dasharray: 0;
+    classDef liquidAgent fill:#8E2DE2,stroke:#4A00E0,stroke-width:2px,color:#fff,rx:15,ry:15;
     classDef liquidModel fill:#F80759,stroke:#BC4E9C,stroke-width:2px,color:#fff,rx:15,ry:15;
     classDef liquidData fill:#00F260,stroke:#0575E6,stroke-width:2px,color:#000,rx:10,ry:10;
-    classDef liquidAction fill:#fff,stroke:#333,stroke-width:1px,color:#000,rx:5,ry:5,stroke-dasharray: 5 5;
 
-    %% --- The Diagram Content ---
-    subgraph " "
+    %% --- Diagram Nodes ---
+    subgraph Wrapper [" "]
         direction TB
         
-        Input([📄 Claims Documents]) :::liquidStart
+        Input(["📄 Claims Documents"])
         
         subgraph Orchestration [" 🧠 Multi-Agent Orchestrator "]
             direction TB
-            Router{{" 🚦 Router Agent "}}:::liquidAgent
+            Router{{" 🚦 Router Agent "}}
             
             subgraph Specialist_Agents [" Specialist Agents (CrewAI) "]
-                Policy[(" 📜 Policy RAG \n (Vector DB) ")]:::liquidData
-                Fraud[(" 🕵️ Fraud Detection \n (Anomaly Model) ")]:::liquidData
-                Medical[(" 🏥 Medical Encoder \n (Fine-Tuned Llama) ")]:::liquidModel
+                Policy[(" 📜 Policy RAG <br/> (Vector DB) ")]
+                Fraud[(" 🕵️ Fraud Detection <br/> (Anomaly Model) ")]
+                Medical[(" 🏥 Medical Encoder <br/> (Fine-Tuned Llama) ")]
             end
         end
 
-        LLM[" 🔮 AWS Bedrock \n (Claude 3.5 Sonnet) "]:::liquidModel
-        Decision{{" ✅ Decision Engine "}}:::liquidAgent
-        Output([🚀 Approved/Rejected]) :::liquidStart
-
+        LLM[" 🔮 AWS Bedrock <br/> (Claude 3.5 Sonnet) "]
+        Decision{{" ✅ Decision Engine "}}
+        Output(["🚀 Approved/Rejected"])
     end
 
     %% --- Connections ---
@@ -79,5 +77,12 @@ graph TD
     LLM ==>|Reasoning Trace| Decision
     Decision -->|JSON Payload| Output
 
+    %% --- Apply Styles (Safe Method) ---
+    class Input,Output liquidStart
+    class Router,Decision liquidAgent
+    class Policy,Fraud liquidData
+    class Medical,LLM liquidModel
+
     %% --- Link Styling ---
-    linkStyle 0,1,2,3,4,5,6,7 stroke-width:3px,fill:none,stroke:url(#gradient);
+    linkStyle default stroke-width:2px,fill:none,stroke:#BB2588;
+```
