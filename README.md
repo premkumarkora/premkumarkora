@@ -6,20 +6,20 @@
 
 ---
 
-## 🚀 Executive Summary
+## Executive Summary
 
 I am a **Principal AI Architect** and **PMP-Certified Leader** with 15+ years of experience bridging the gap between business strategy and production-grade AI engineering. I specialize in designing **Enterprise Agentic Workflows**, **Secure RAG Systems**, and **Multi-Agent Orchestration** for regulated industries (Insurance, Healthcare, Finance).
 
 Currently, I focus on translating ambiguous business requirements into scalable AI solutions that deliver tangible ROI, ensuring data sovereignty and regulatory compliance.
 
-### 🏆 Strategic Impact & ROI
+### Strategic Impact & ROI
 * **$1.8M Claims Automation:** Architected an Agentic AI platform on AWS (Claude/Titan) that autonomously processes **80% of claims**, reducing cycle time from 5.2 to 1.1 days.
 * **$1.0M Cost Avoidance:** Engineered a secure RAG application for policy analysis, eliminating 100% of manual data capture for adjusters.
 * **85% Efficiency Gain:** Deployed a Multi-Agent GenAI platform unifying 52 reporting systems, saving **$340K annually**.
 
 ---
 
-## 🧠 Architectural Specialization: Agentic Systems
+## Architectural Specialization: Agentic Systems
 
 *Below is a high-level representation of the **Agentic Claims Processing Architecture** I designed, utilizing Multi-Agent Orchestration to handle complex decision-making logic.*
 
@@ -46,22 +46,22 @@ graph TD
     classDef liquidData fill:#00F260,stroke:#0575E6,stroke-width:2px,color:#000
 
     %% --- Nodes ---
-    Input(["📄 Claims Documents"])
+    Input(["Claims Documents"])
     
-    subgraph Orchestration [" 🧠 Multi-Agent Orchestrator "]
+    subgraph Orchestration [" Multi-Agent Orchestrator "]
         direction TB
-        Router{{" 🚦 Router Agent "}}
+        Router{{" Router Agent "}}
         
         subgraph Specialist_Agents [" Specialist Agents (CrewAI) "]
-            Policy[(" 📜 Policy RAG ")]
-            Fraud[(" 🕵️ Fraud Detection ")]
-            Medical[(" 🏥 Medical Encoder ")]
+            Policy[("Policy RAG ")]
+            Fraud[("Fraud Detection ")]
+            Medical[("Medical Encoder ")]
         end
     end
 
-    LLM[" 🔮 AWS Bedrock (Claude 3.5) "]
-    Decision{{" ✅ Decision Engine "}}
-    Output(["🚀 Approved/Rejected"])
+    LLM["AWS Bedrock (Claude 3.5) "]
+    Decision{{"Decision Engine "}}
+    Output(["Approved/Rejected"])
 
     %% --- Connections ---
     Input --> Router
