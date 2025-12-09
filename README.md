@@ -39,50 +39,47 @@ Currently, I focus on translating ambiguous business requirements into scalable 
 }%%
 
 graph TD
-    %% --- Define Styles ---
-    classDef liquidStart fill:#000000,stroke:#333,stroke-width:4px,color:#fff,rx:20,ry:20,shadow:10px;
-    classDef liquidAgent fill:#8E2DE2,stroke:#4A00E0,stroke-width:2px,color:#fff,rx:15,ry:15;
-    classDef liquidModel fill:#F80759,stroke:#BC4E9C,stroke-width:2px,color:#fff,rx:15,ry:15;
-    classDef liquidData fill:#00F260,stroke:#0575E6,stroke-width:2px,color:#000,rx:10,ry:10;
+    %% --- Define Classes ---
+    classDef liquidStart fill:#000000,stroke:#333,stroke-width:4px,color:#fff
+    classDef liquidAgent fill:#8E2DE2,stroke:#4A00E0,stroke-width:2px,color:#fff
+    classDef liquidModel fill:#F80759,stroke:#BC4E9C,stroke-width:2px,color:#fff
+    classDef liquidData fill:#00F260,stroke:#0575E6,stroke-width:2px,color:#000
 
-    %% --- Diagram Nodes ---
-    subgraph Wrapper [" "]
+    %% --- Nodes ---
+    Input(["📄 Claims Documents"])
+    
+    subgraph Orchestration [" 🧠 Multi-Agent Orchestrator "]
         direction TB
+        Router{{" 🚦 Router Agent "}}
         
-        Input(["📄 Claims Documents"])
-        
-        subgraph Orchestration [" 🧠 Multi-Agent Orchestrator "]
-            direction TB
-            Router{{" 🚦 Router Agent "}}
-            
-            subgraph Specialist_Agents [" Specialist Agents (CrewAI) "]
-                Policy[(" 📜 Policy RAG <br/> (Vector DB) ")]
-                Fraud[(" 🕵️ Fraud Detection <br/> (Anomaly Model) ")]
-                Medical[(" 🏥 Medical Encoder <br/> (Fine-Tuned Llama) ")]
-            end
+        subgraph Specialist_Agents [" Specialist Agents (CrewAI) "]
+            Policy[(" 📜 Policy RAG ")]
+            Fraud[(" 🕵️ Fraud Detection ")]
+            Medical[(" 🏥 Medical Encoder ")]
         end
-
-        LLM[" 🔮 AWS Bedrock <br/> (Claude 3.5 Sonnet) "]
-        Decision{{" ✅ Decision Engine "}}
-        Output(["🚀 Approved/Rejected"])
     end
 
+    LLM[" 🔮 AWS Bedrock (Claude 3.5) "]
+    Decision{{" ✅ Decision Engine "}}
+    Output(["🚀 Approved/Rejected"])
+
     %% --- Connections ---
-    Input -->|Ingest PDF/Img| Router
+    Input --> Router
     Router -- "Context Retrieval" --> Policy
     Router -- "Risk Analysis" --> Fraud
     Router -- "Entity Extraction" --> Medical
     
-    Policy & Fraud & Medical -.->|Aggregated Context| LLM
-    LLM ==>|Reasoning Trace| Decision
-    Decision -->|JSON Payload| Output
+    Policy -.-> LLM
+    Fraud -.-> LLM
+    Medical -.-> LLM
+    LLM ==> Decision
+    Decision --> Output
 
-    %% --- Apply Styles (Safe Method) ---
+    %% --- Apply Styles ---
     class Input,Output liquidStart
     class Router,Decision liquidAgent
     class Policy,Fraud liquidData
     class Medical,LLM liquidModel
 
-    %% --- Link Styling ---
-    linkStyle default stroke-width:2px,fill:none,stroke:#BB2588;
-```
+    %% --- Link Styling (Simplified) ---
+    linkStyle default stroke:#BB2588,stroke-width:2px,fill:none
