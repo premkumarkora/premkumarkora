@@ -8,7 +8,8 @@
 
 ## Executive Summary
 
-I am a **Principal AI Architect** and **PMP-Certified Leader** with 25+ years of experience bridging the gap between business strategy and production-grade AI engineering. I specialize in designing **Enterprise Agentic Workflows**, **Secure RAG Systems**, and **Multi-Agent Orchestration** for regulated industries (Insurance, Healthcare, Finance).
+As a **Principal AI Architect, PMP-Certified and MBA*, I offer a rare combination: 6+ years of cutting-edge Generative AI specialization built on a foundation of 25+ years of Enterprise Engineering & Leadership. I bridge the dangerous gap between "Business Strategy" and "Technical Execution." While others prototype concepts, I translate ambiguous business requirements into high-performance, autonomous AI systems that deliver measurable ROI.
+I specialize in designing **Enterprise Agentic Workflows**, **Secure RAG Systems**, and **Multi-Agent Orchestration** for regulated industries (Insurance, Healthcare, Finance).
 
 Currently, I focus on translating ambiguous business requirements into scalable AI solutions that deliver tangible ROI, ensuring data sovereignty and regulatory compliance.
 
