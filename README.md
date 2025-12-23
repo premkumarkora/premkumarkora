@@ -22,6 +22,12 @@ Currently, I focus on translating ambiguous business requirements into scalable 
 
 ## Architectural Specialization: Agentic Systems
 
+*Below is a high-level representation of the **Agentic AI Data Cleaning and Clustering Architecture** I designed, utilizing Multi-Agent Orchestration*
+
+
+![LangGraph_Cleaning_segmentation](https://github.com/user-attachments/assets/628efecc-68f5-4c99-9b47-973e08e4e572)
+
+
 *Below is a high-level representation of the **Agentic Claims Processing Architecture** I designed, utilizing Multi-Agent Orchestration to handle complex decision-making logic.*
 
 ```mermaid
